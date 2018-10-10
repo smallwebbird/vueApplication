@@ -1,8 +1,12 @@
 import Vue from 'vue';
-import App from './App.vue';
+import App from './App';
+
+if(module.hot){
+    module.hot.accept();
+}
 
 new Vue({
-    el:'#app',
+    el:'#haha',
     components:{ App },
     template:'<App/>'
 })
