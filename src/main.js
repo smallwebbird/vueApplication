@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import App from './App';
+import router from './router';
 
 if(module.hot){
     module.hot.accept();
@@ -7,6 +8,7 @@ if(module.hot){
 
 new Vue({
     el:'#haha',
+    router,
     components:{ App },
     template:'<App/>'
 })

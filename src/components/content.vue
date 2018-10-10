@@ -5,6 +5,7 @@
     :key='pic.id'
     :pic='pic'
     @delete='deleteImg'></picture-div>
+        <router-view></router-view>
  </div>    
 </template>
 <script>
